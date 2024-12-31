@@ -1,0 +1,45 @@
+# Ignore node_modules and npm debug log
+node_modules
+npm-debug.log
+
+# Ignore build outputs
+bin
+obj
+out
+
+# Ignore user-specific files
+*.csproj.user
+*.suo
+*.user
+*.vscode
+
+# Ignore temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Ignore directories
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore configuration files with sensitive data
+secrets.json
+appsettings.*.local.json
+
+# Ignore Docker-specific files (optional)
+.dockerignore
+docker-compose.override.yml
+
+# Ignore artifacts from EF Core migrations
+Migrations/
+
+# Ignore coverage and testing artifacts
+coverage/
+TestResults/
+
+# Ignore unnecessary files in root
+*.md
+LICENSE
+README.*
